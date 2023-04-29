@@ -1,0 +1,242 @@
+body{
+    background-color: #F3F5FC;
+    line-height: 1;
+    margin: 4px;
+    height: 100%;
+    font-family: 'inter', sans-serif;
+}
+header{
+    padding: 20px 0 20px 0;
+    width: 100%;
+}
+.caja{
+    position: relative;
+    margin: 0 auto 0 0;
+    
+}
+
+.ingresar-texto{
+    
+    position:absolute;
+    width: 577px;
+    height: 300px;
+    left: 240px;
+    top: 168px;
+    
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    background: #F3F5FC;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+
+textarea::placeholder {
+    /* modern browser */
+    color: #0A3871;
+}
+/*
+.contenedor{
+    max-width: 100%;
+    height: 300px;
+    margin: 90px auto;
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+*/
+
+.frame-1{
+    background: #FFFFFF;
+    position: absolute;
+    top:40px;
+    width: 400px;
+    height: 924px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    left: 1000px;
+    padding: 32px 32px 32px 32px;
+    
+    
+
+}
+.instrucciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.salida-texto1{
+    display: flex;
+    height: 781px;
+    font-size: 24px;
+    color: #495057;
+    text-align: justify;
+    text-justify: auto ;
+    text-overflow: "-";
+    white-space: initial;
+    word-break: break-all;
+}
+.button-copiar{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 24px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    top: 885px;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-family: 'inter';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    visibility: hidden;
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    top:619px;
+}
+.salida-conversion{
+
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0px 10px 0px 0px;
+    margin-bottom: 10px;
+}
+.mensaje-instructivo{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 100%;
+    margin: auto;
+
+    color: #495057; 
+}
+
+.imagen-munheco{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    align-items: center;
+
+}
+.informacion-de-uso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;   
+    left: 240px;
+    top: 851px;
+    display: flex;
+}
+.simbolo-de-atencion{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.informacion-de-uso p{
+    width: 205px;
+    height: 18px; 
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+main .seleccion-conversion-texto{
+    position: absolute;
+    width: 680px;
+    height: 68px;
+    font-weight: bold;
+    left: 240px;
+    top: 885px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    padding: 0px;
+    gap: 24px;
+}
+.button-Encriptar{
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+    
+    width: 328px;
+    height: 67px;
+
+    color: white;
+    font-style: normal;
+    font-size: 18px;
+    padding: 4px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.button-Desencriptar{
+    box-sizing: border-box;
+    background: #D8DFE8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    font-style: normal;
+    font-size: 18px;
+    
+    flex-direction: row;
+    align-items: flex-start;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+main{
+display: block;
+width: 100%;
+}
+    
