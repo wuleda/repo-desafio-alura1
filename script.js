@@ -14,16 +14,16 @@ function EncriptarTexto() {
 
    //const original=Array.from(x);
    if(x.length==0){
-        MostrarElemento("imagen-munheco");
-        MostrarElemento("salida-conversion");
-        MostrarElemento("mensaje-instructivo");
+        //MostrarElemento("imagen-munheco");
+        //MostrarElemento("salida-conversion");
+        //MostrarElemento("mensaje-instructivo");
         EsconderElemento("button-copiar");        
         
     }
     else{
-        EsconderElemento("imagen-munheco");
-        EsconderElemento("salida-conversion");
-        EsconderElemento("mensaje-instructivo");
+        //EsconderElemento("imagen-munheco");
+        //EsconderElemento("salida-conversion");
+        //EsconderElemento("mensaje-instructivo");
         MostrarElemento("button-copiar");
     }
    const chars = {
@@ -55,16 +55,16 @@ function DesencriptarTexto(){
     const myelement1 = document.getElementsByClassName("salida-texto1");
     const myelement2 = document.getElementsByClassName("ingresar-texto");
     if(a.length==0){
-        MostrarElemento("imagen-munheco");
-        MostrarElemento("salida-conversion");
-        MostrarElemento("mensaje-instructivo");
+        //MostrarElemento("imagen-munheco");
+        //MostrarElemento("salida-conversion");
+        //MostrarElemento("mensaje-instructivo");
         EsconderElemento("button-copiar");        
 
     }
     else{
-        EsconderElemento("imagen-munheco");
-        EsconderElemento("salida-conversion");
-        EsconderElemento("mensaje-instructivo");
+        //EsconderElemento("imagen-munheco");
+        //EsconderElemento("salida-conversion");
+        //EsconderElemento("mensaje-instructivo");
         MostrarElemento("button-copiar");
     }
     
@@ -112,9 +112,9 @@ function myFunction() {
     const myelement = document.getElementsByClassName("salida-texto1");
     
     
-    EsconderElemento("imagen-munheco");
-    EsconderElemento("salida-conversion");
-    EsconderElemento("mensaje-instructivo");
+    //EsconderElemento("imagen-munheco");
+    //EsconderElemento("salida-conversion");
+    E//sconderElemento("mensaje-instructivo");
 }
 
   function test(){
