@@ -114,7 +114,7 @@ function myFunction() {
     
     //EsconderElemento("imagen-munheco");
     //EsconderElemento("salida-conversion");
-    E//sconderElemento("mensaje-instructivo");
+    //sconderElemento("mensaje-instructivo");
 }
 
   function test(){
